@@ -343,7 +343,7 @@ var playState = {
         layer.resizeWorld();
 
         game.physics.arcade.gravity.y = 1200;
-        player = game.add.sprite(5800, 32, 'player');
+        player = game.add.sprite(32, 32, 'player');
 
         coins = game.add.group();
         coins.enableBody = true;
